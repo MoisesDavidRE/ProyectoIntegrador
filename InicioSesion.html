@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .login-input-container {
+            background-color: #D9D9D9;
+            padding: 20px;
+            max-width: 350px;
+            margin: 0 auto;
+            border-radius: 10px;
+            height: 350px;
+            font-family: 'Open Sans';
+        }
+
+        input {
+            background-color: #ABABAB;
+            width: 250px;
+            height: 39px;
+            border-radius: 4px;
+            border: none;
+            font-family: 'Open Sans';
+        }
+
+        button {
+            width: 200px;
+            height: 45px;
+            border-radius: 4px;
+            border: none;
+            background-color: #BFBFBF;
+            font-family: 'Open Sans';
+        }
+        .login-input-container button:hover {
+            background-color: #8AFF88;
+        }
+        .login-input-container button:active {
+            background-color: #67f465;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="text-center">
+        <img src="Recursos/Papeleria Dinamita logo.png" height="150" width="150">
+        <h1>Inicio de sesión</h1><br>
+
+        <div class="login-input-container">
+
+            <h3>Usuario</h3>
+            <input type="text" class="form-check-inline" placeholder="Ingresa tu usuario" id="inputUsuario"><br><br>
+            <h3>Contraseña</h3>
+            <input type="password" class="form-check-inline" placeholder="Ingresa tu contraseña"><br><br><br>
+            <button type="submit" onclick="window.location.href='MenuInicial.html';"> Iniciar sesión </button>
+            
+
+        </div>
+        <p style="line-height: 1; margin-top: 5em;">
+            En caso de necesitar la recuperación de su contraseña, favor de 
+            contactar con su administrador</p>
+
+    </div>
+
+
+
+    <script src="BootStrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
