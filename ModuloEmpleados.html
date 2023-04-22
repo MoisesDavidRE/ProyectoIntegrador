@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .container-fluid {
+            background-color: #5E5E5E;
+            width: 1300px;
+            height: 180px;
+            border-radius: 10px;
+            border-top-right-radius: 0px;
+            position: fixed;
+            top: 0;
+        }
+
+        #BarraNavegacion {
+            max-width: 1300px;
+            height: 120px;
+            float: right;
+            right: 0%;
+            position: fixed;
+            top: 0;
+        }
+
+        .btn {
+            font-size: xx-large;
+        }
+
+        #usuarioContenedor {
+            float: right;
+            right: 25%;
+            position: fixed;
+            top: 20px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="usuarioContenedor">
+        <img src="Recursos/UsuarioImagen.png" height="150" width="150">
+        <p style="font-size: xx-large; text-align: center;">Nombre de usuario</p>
+    </div>
+    <nav class="navbar bg-body-tertiary justify-content-end" id="BarraNavegacion">
+        <form class="container-fluid">
+            <button class="btn btn-sm btn-outline-secondary" type="button"
+                style="margin-right: -65px;margin-left: 65px;" onclick="window.location.href='ModuloVentas.html';">
+                <img src="Recursos/VentaImagen.png" height="70" width="70" alt="Ventas">
+                <span style="color:white;">Ventas</span>
+            </button>
+            <button class="btn btn-sm btn-outline-secondary" type="button"
+                style="margin-right: -65px;margin-left: 65px;" onclick="window.location.href='ModuloInventario.html';">
+                <img src="Recursos/InventarioImagen.png" height="70" width="70" alt="Inventario">
+                <span style="color:white;">Inventario</span>
+            </button>
+            <button class="btn btn-sm btn-outline-success" type="button"
+                style="border-width: 5px; margin-right: -65px;margin-left: 65px;">
+                <img src="Recursos/EmpleadoImagen.png" height="70" width="70" alt="Empleados">
+                <span style="color:white;">Empleados</span>
+            </button>
+            <button class="btn btn-sm btn-outline-secondary" type="button" style="margin-right: 65px;margin-left: 65px;"
+                onclick="window.location.href='ModuloProveedores.html';">
+                <img src="Recursos/proveedor.png" height="70" width="70" alt="Proveedores">
+                <span style="color:white;">Proveedores</span>
+            </button>
+        </form>
+    </nav>
+
+</body>
+
+</html>
