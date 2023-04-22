@@ -11,10 +11,10 @@
         .login-input-container {
             background-color: #D9D9D9;
             padding: 20px;
-            max-width: 350px;
+            max-width: 370px;
             margin: 0 auto;
             border-radius: 10px;
-            height: 350px;
+            height: 390px;
             font-family: 'Open Sans';
         }
 
@@ -43,6 +43,10 @@
         .login-input-container button:active {
             background-color: #67f465;
         }
+        #perfilDesplegable{
+            background-color: #BFBFBF;
+            margin-top: 1em;
+        }
     </style>
 </head>
 
@@ -58,7 +62,7 @@
             <input type="text" class="form-check-inline" placeholder="Ingresa tu usuario" id="inputUsuario"><br><br>
             <h3>Contraseña</h3>
             <input type="password" class="form-check-inline" placeholder="Ingresa tu contraseña"><br><br>
-            <select class="form-select">
+            <select class="form-select" id="perfilDesplegable">
                 <option selected>Selecciona tu perfil</option>
                 <option value="1">Dueño</option>
                 <option value="2">Empleado</option>
