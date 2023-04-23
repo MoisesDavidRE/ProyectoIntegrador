@@ -11,7 +11,7 @@
         .container-fluid {
             background-color: #5E5E5E;
             width: 1300px;
-            height: 180px;
+            height: 160px;
             border-radius: 10px;
             border-top-right-radius: 0px;
             position: fixed;
@@ -49,28 +49,41 @@
     </div>
     <nav class="navbar bg-body-tertiary justify-content-end" id="BarraNavegacion">
         <form class="container-fluid">
-            <button class="btn btn-sm btn-outline-success" type="button"
-                style="border-width: 5px; margin-right: -65px;margin-left: 65px;">
+            <button class="btn btn-sm btn-outline-success" type="button" style="border-width: 5px;">
                 <img src="Recursos/VentaImagen.png" height="70" width="70" alt="Ventas">
                 <span style="color:white;">Ventas</span>
             </button>
             <button class="btn btn-sm btn-outline-secondary" type="button"
-                style="margin-right: -65px;margin-left: 65px;" onclick="window.location.href='ModuloInventario.html';">
+                onclick="window.location.href='ModuloInventario.html';">
                 <img src="Recursos/InventarioImagen.png" height="70" width="70" alt="Inventario">
                 <span style="color:white;">Inventario</span>
             </button>
             <button class="btn btn-sm btn-outline-secondary" type="button"
-                style="margin-right: -65px; margin-left: 65px;" onclick="window.location.href='ModuloEmpleados.html';">
+                onclick="window.location.href='ModuloEmpleados.html';">
                 <img src="Recursos/EmpleadoImagen.png" height="70" width="70" alt="Empleados">
                 <span style="color:white;">Empleados</span>
             </button>
-            <button class="btn btn-sm btn-outline-secondary" type="button" style="margin-right: 65px;margin-left: 65px;"
+            <button class="btn btn-sm btn-outline-secondary" type="button"
                 onclick="window.location.href='ModuloProveedores.html';">
                 <img src="Recursos/proveedor.png" height="70" width="70" alt="Proveedores">
                 <span style="color:white;">Proveedores</span>
             </button>
+            <button class="btn btn-sm btn-outline-secondary" type="button"
+                onclick="window.location.href='ModuloDevoluciones.html';">
+                <img src="Recursos/devolucionImagen.png" height="70" width="70" alt="Devoluciones">
+                <span style="color:white;">Devoluciones</span>
+            </button>
         </form>
     </nav>
+   <div class="d-flex align-items-center justify-content-center">
+    <div class="container my-xxl-5">
+        <div class="btn-group d-flex " role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary">Left</button>
+            <button type="button" class="btn btn-outline-primary">Middle</button>
+            <button type="button" class="btn btn-outline-primary">Right</button>
+        </div>
+    </div>
+</div>
 
 </body>
 
