@@ -49,8 +49,7 @@
     </div>
     <nav class="navbar bg-body-tertiary justify-content-end" id="BarraNavegacion">
         <form class="container-fluid">
-            <button class="btn btn-sm btn-outline-secondary" type="button"
-                onclick="window.location.href='ModuloVentasContado.html'">
+            <button class="btn btn-sm btn-outline-success" type="button" style="border-width: 5px;">
                 <img src="Recursos/VentaImagen.png" height="70" width="70" alt="Ventas">
                 <span style="color:white;">Ventas</span>
             </button>
@@ -59,8 +58,8 @@
                 <img src="Recursos/InventarioImagen.png" height="70" width="70" alt="Inventario">
                 <span style="color:white;">Inventario</span>
             </button>
-            <button class="btn btn-sm btn-outline-success" type="button"
-                style="border-width: 5px;">
+            <button class="btn btn-sm btn-outline-secondary" type="button"
+                onclick="window.location.href='ModuloEmpleados.html';">
                 <img src="Recursos/EmpleadoImagen.png" height="70" width="70" alt="Empleados">
                 <span style="color:white;">Empleados</span>
             </button>
@@ -76,6 +75,16 @@
             </button>
         </form>
     </nav>
+
+    <div class="container" style="margin-top: 13em; max-width: 850px;">
+        <div class="btn-group d-flex " role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-secondary"
+            onclick="window.location.href='ModuloVentasContado.html'" > <img
+                    src='Recursos/dólar.png' height="90" width="90"> Contado</button>
+            <button type="button" class="btn btn-outline-success" style="background-color:#198754; color:white">
+                <img src='Recursos/reloj.png' height="90" width="90">Apartado</button>
+        </div>
+    </div>
 
 </body>
 
